@@ -21,11 +21,11 @@ Include `plug.ionic-segment.js` and `segment.css` in your index.html:
 
 ```
 
-Add the module plgn.ionic-segment to your application dependencies:
+Add the module plug.ionic-segment to your application dependencies:
 
 ```javascript
 
-angular.module('starter', ['ionic', 'plgn.ionic-segment']);
+angular.module('starter', ['ionic', 'plug.ionic-segment']);
 
 ```
 
