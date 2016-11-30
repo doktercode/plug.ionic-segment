@@ -8,9 +8,7 @@ Feel free to contribute to this project.
 Install manually, or from bower:
 
 ```
-
 $ bower install plug.ionic-segment
-
 ```
 
 Include `plug.ionic-segment.js` and `segment.css` in your index.html:
