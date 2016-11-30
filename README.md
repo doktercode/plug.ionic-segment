@@ -33,6 +33,8 @@ angular.module('starter', ['ionic', 'plgn.ionic-segment']);
 
 And you're ready to go.
 
+## Examples
+
 ```html
 <ion-segment ng-model="period" full="true" positive>
   <ion-segment-button value="today">
