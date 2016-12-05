@@ -6,17 +6,20 @@ angular.module('plgn.ionic-segment', [])
     transclude: true,
     replace: true,
     scope: {
-      full: '@full'
+      full: '@full',
+      ngModel: '='
     },
     template: '<ul id="ion-segment" ng-transclude></ul>',
     link: function ($scope, $element, $attr, ngModelCtrl) {
       if ($scope.full == 'true') {
         $element.find('li').addClass('full');
       }
-      var segment = $element.find('li').eq(0).attr('value');
-      $element.find('li').eq(0).addClass('active');
-
-      ngModelCtrl.$setViewValue(segment);
+      angular.forEach($element.find('li'), function(element) {
+        var segment = angular.element(element);
+        if ( segment.attr('value') == $scope.ngModel ) {
+          segment.addClass('active');
+        }
+      });
     }
   }
 })
