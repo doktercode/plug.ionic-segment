@@ -1,4 +1,7 @@
 # plug.ionic-segment
+![GitHub version](https://img.shields.io/github/release/frontexpert/plug.ionic-segment.svg?style=flat-square)
+![Ionic version](https://img.shields.io/badge/ionic-%5E1.3.2-yellow.svg?style=flat-square)
+![License](https://img.shields.io/github/license/frontexpert/plug.ionic-segment.svg?style=flat-square)
 
 Ionic iOS segment plugin.
 Feel free to contribute to this project.
