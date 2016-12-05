@@ -1,4 +1,4 @@
-angular.module('plgn.ionic-segment', [])
+angular.module('plug.ionic-segment', [])
 .directive('ionSegment', function () {
   return {
     restrict: 'E',
