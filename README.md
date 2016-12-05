@@ -3,12 +3,16 @@
 Ionic iOS segment plugin.
 Feel free to contribute to this project.
 
+#Screenshots
+
+<img src="/../screenshots/segment.png?raw=true" alt="Segment" width="239">
+
 ## Usage
 
 Install manually, or from bower:
 
 ```
-$ bower install plug.ionic-segment
+$ bower install plug.ionic-segment --save
 ```
 
 Include `plug.ionic-segment.js` and `segment.css` in your index.html:
